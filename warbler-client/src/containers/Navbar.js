@@ -1,6 +1,6 @@
 import React , { Component } from "react";
-import {Link} from "react-router-dom";
-import {connect} from "react-redux";
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
 import Logo from '../images/warbler-logo.png';
 
 class Navbar extends Component {
@@ -13,7 +13,7 @@ class Navbar extends Component {
 							<img src={Logo} alt="Warbler Home" />
 						</Link>
 					</div>				
-				<ul className="nav navbar-nav navbar-right">
+					<ul className="nav navbar-nav navbar-right">
 					<li>
 						<Link to="/signup">Sign up</Link>
 					</li>

@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 import Main from './Main';
 
 
-const store = configureStore()
+const store = configureStore();
 
 
 const App = () => (
